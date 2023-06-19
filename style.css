@@ -1,0 +1,289 @@
+body{
+	background:url("images/img1.jpg");
+	margin:0% 20% 0% 20%;
+}
+h1{
+color:white;
+font-family:Arial,Helvetica;
+animation:rotate 2s infinite;
+}
+ @keyframes rotate {
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate (0deg); color:green}
+ }
+li{
+	display:inline;
+}
+li:active{
+	border:5px solid green;
+}
+.div{
+display:inline-block;
+}
+a{
+	text-decoration:none;
+	font-family:consolas;
+	color:white;
+	padding:10px 20px;
+}
+.w{
+	list-style: none;
+	margin:0;
+	padding-left: 0;
+}
+.q{
+	color:white;
+}
+h3{
+	font-size: 26px;
+	display: block;
+	background:linear-gradient(to left,#5d5d5d,#ddd);
+	-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+p{
+	color:white;
+	text-indent:15px;
+	display: block;
+}
+.r{
+  display:flex;
+  align-items:center;
+}
+.r .article-img,.article-item .article-text{
+  flex:50%;
+}
+img{
+	width:200px;
+	margin:30px;
+}
+
+img:hover{
+	border:10px solid green;
+}
+.e{
+  display:flex;
+  align-items:center;
+   flex-direction: row-reverse;
+}
+.e .article-img,.article-item .article-text{
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 990px){
+	.e{
+		flex-direction: column;
+	}
+	.r{
+		flex-direction: column;
+	}
+}
+.t{
+	width:600px;
+	height:800px;
+}
+@media screen and (max-width: 800px){
+	.t{
+		flex-direction: column;
+		width:80%;
+		height:60%;
+    }
+}
+.y{
+	width:150px;
+	height:150px;
+	position:absolute;
+	top:140px;
+	left:750px;
+}
+.g{
+	font-size:30px;
+}
+.j{
+	font-size:50px;
+	color:green;
+    animation:rotate 3s infinite;
+}
+ @keyframes rotate {
+	0%{transform: rotate(0deg);}
+	
+	100%{transform: rotate (0deg); color:green}
+}
+.d{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:120px;
+	left:200px;
+	border:10px solid green;
+}
+.d1{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:120px;
+	left:400px;
+	border:10px solid green;
+}
+.d2{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:120px;
+	left:600px;
+	border:10px solid green;
+}
+.d3{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:120px;
+	left:800px;
+	border:10px solid green;
+}
+.d4{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:390px;
+	left:200px;
+	border:10px solid green;
+}
+.d5{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:390px;
+	left:400px;
+	border:10px solid green;
+}
+.d6{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:390px;
+	left:600px;
+	border:10px solid green;
+}
+.d7{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:660px;
+	left:200px;
+	border:10px solid green;
+}
+.d8{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:660px;
+	left:400px;
+	border:10px solid green;
+}
+.d9{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:660px;
+	left:600px;
+	border:10px solid green;
+}
+.d10{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:930px;
+	left:200px;
+	border:10px solid green;
+}
+.d11{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:930px;
+	left:400px;
+	border:10px solid green;
+}
+.d12{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:930px;
+	left:600px;
+	border:10px solid green;
+}
+.d13{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:1200px;
+	left:200px;
+	border:10px solid green;
+}
+.d14{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:1200px;
+	left:400px;
+	border:10px solid green;
+}
+.d15{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:1200px;
+	left:600px;
+	border:10px solid green;
+}
+.d16{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:1200px;
+	left:800px;
+	border:10px solid green;
+}
+.d17{
+	width:200px;
+	height:270px;
+	position:absolute;
+	top:1470px;
+	left:200px;
+	border:10px solid green;
+}
+.shedule{
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+.shedule > div{
+	max-width:200px;
+}
+.shedule img{
+	border:10px solid green;
+}
+section{
+	
+}
+.x{
+	border-radius:55px;
+	width:50px;
+	height:50px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+hr{
+	width:60%;
+}
+.v{
+	max-width:600px;
+	 height:450px;
+	 border:0;
+}
+.iframe{
+	width: 100%;
+}
